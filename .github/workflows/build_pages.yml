@@ -23,7 +23,7 @@ jobs:
       # Checks-out the repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
-      - run: echo $GITHUB_WORKSPACE
+      #- run: echo $GITHUB_WORKSPACE
       
       # Install dependencies
       - name: Python Dependency Installation
