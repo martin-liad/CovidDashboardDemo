@@ -85,4 +85,4 @@ chart = alt.Chart(chart_data).transform_fold(
     height=height
 )
 
-chart.save(f"{pages_dir}/cases.html")
+chart.save(f"{pages_dir}/index.html")
